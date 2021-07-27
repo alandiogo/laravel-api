@@ -18,3 +18,9 @@ git clone https://github.com/alandiogo/laravel-api.git
 composer install
 ```
 As tabelas são criadas por migrations no fim da instalação
+
+## Documentação da API
+https://documenter.getpostman.com/view/2675652/TzsbL7SR
+
+## Projeto Postman
+./Laravel API.postman_collection.json
