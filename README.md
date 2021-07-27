@@ -5,19 +5,22 @@
 - Apache 2.4+
 
 ## Instalação
-### Crie a base com suas credenciais
+### Crie a base
 ```sh
 mysqladmin -u root create laravel_api
 ```
-### Clone o projeto, edite o .env
+### Clone o projeto
 ```sh
 git clone https://github.com/alandiogo/laravel-api.git
 ```
+Copie .env.example para .env e configure com suas credenciais
 ### Por fim
 ```sh
 composer install
 ```
-As tabelas são criadas por migrations no fim da instalação
+```sh
+php artisan migrate
+```
 
 ## Documentação da API
 https://documenter.getpostman.com/view/2675652/TzsbL7SR
